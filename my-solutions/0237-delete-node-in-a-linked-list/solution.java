@@ -7,7 +7,7 @@
  * }
  */
 class Solution {
-    public void deleteNode(ListNode node) {
+    public void deleteNode(ListNode node) { //this node is the given node which we have to delete.
         node.val= node.next.val;
         node.next=node.next.next;
     }
